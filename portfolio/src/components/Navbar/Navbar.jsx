@@ -12,6 +12,7 @@ import {
 	MobileMenu,
 	MobileNavLogo,
 	MobileLink,
+	SkillImage,
 } from './NavbarStyle';
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
@@ -27,14 +28,15 @@ const Navbar = () => {
 			<NavbarContainer>
 				<NavLogo to='/'>
 					<a
+						href='#'
 						style={{
 							display: 'flex',
 							alignItems: 'center',
 							color: 'white',
-							marginBottom: '20px',
 							cursor: 'pointer',
+							textDecoration: 'none',
 						}}>
-						<DiCssdeck size='3rem' /> <Span>Portfolio</Span>
+						<SkillImage src='../../../public/Logo.svg' /> <Span>Portfolio</Span>
 					</a>
 				</NavLogo>
 				<MobileIcon>

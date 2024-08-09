@@ -214,3 +214,8 @@ export const MobileNavLogo = styled(LinkR)`
 		padding: 0 0px;
 	}
 `;
+
+export const SkillImage = styled.img`
+	width: 44px;
+	height: 34px;
+`;
