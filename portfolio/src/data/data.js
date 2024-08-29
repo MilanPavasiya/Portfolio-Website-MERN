@@ -10,7 +10,7 @@ export const Bio = {
 		'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
 	github: 'https://github.com/MilanPavasiya',
 	resume:
-		'https://drive.google.com/file/d/1Sep7DZI9e478J5503B1kNLFVGtAg6gE7/view?usp=sharing',
+		'https://drive.google.com/file/d/1X2yi0x50aEX5E8w9iVYvAojfDSgp8UMY/view?usp=sharing',
 	linkedin: 'https://www.linkedin.com/in/milan-pavasiya/',
 	leetcode: 'https://leetcode.com/u/MilanPavasiya/',
 };
@@ -340,7 +340,115 @@ export const education = [
 	},
 ];
 
-export const projects = [{}];
+export const projects = [
+	{
+		id: 0,
+		title: 'AI Image Generator - MERN',
+		date: 'July 2024 - Aug 2024',
+		description:
+			"This project is a full-stack MERN application that allows users to generate images using AI. It integrates OpenAI's DALL·E API for image generation and includes features like user authentication, image storage in MongoDB, and RESTful API operations with Node.js and Express.js. The React.js front end interacts with the back end to send prompts and display the AI-generated images.",
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/AI-Image.png?alt=media&token=ec841afe-f55b-4004-a60f-691e15a7ed5f',
+		tags: ['React Js', 'Node Js', 'Express Js', , 'MongoDb', 'JWT', 'OpenAI'],
+		category: 'mern app',
+		github: 'https://github.com/MilanPavasiya/AI-Image-Generator-MERN',
+		webapp: 'https://aiimagegeneratorgfg.netlify.app',
+	},
+	{
+		id: 1,
+		title: 'AI Chatbot - MERN ',
+		date: 'July 2024 - Aug 2024',
+		description:
+			'This MERN project is a chatbot application built using the MERN stack. It integrates OpenAIs GPT-3 to handle natural language conversations, offering intelligent responses to user queries. The back end supports user authentication, message storage, and retrieval, while the front end provides a sleek, user-friendly interface for interaction. This chatbot can be deployed in various settings such as customer service or personal assistants.',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/MERN-GPT.png?alt=media&token=d04d6442-bc46-4b30-a494-5998d620dce7',
+		tags: ['React Js', 'Node Js', 'Express Js', , 'MongoDb', 'JWT', 'OpenAI'],
+		category: 'mern app',
+		github: 'https://github.com/MilanPavasiya/AI-Chatbot-MERN',
+		webapp: 'https://github.com/MilanPavasiya/AI-Chatbot-MERN',
+	},
+	{
+		id: 2,
+		title: 'Netflix Clone',
+		date: 'July 2024 - July 2024',
+		description:
+			'Netflix Clone App Description: A Netflix-like application that allows users to browse, search, and view movies and TV shows. It features a responsive UI, integrates with a movie database API for fetching content, and supports user authentication.',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/Netflix.png?alt=media&token=fee521f7-54e3-4ca3-8e24-e6d358de8aff',
+		tags: ['React Js', 'Firebase', 'CSS', 'TMDB API'],
+		category: 'react app',
+		github: 'https://github.com/MilanPavasiya/Netflix-Clone-React-App',
+		webapp: 'https://react-f7ulwg.stackblitz.io',
+	},
+	{
+		id: 3,
+		title: 'Todo Maanger App',
+		date: 'July 2024 - July 2024',
+		description:
+			'The app allows users to add, delete, and update tasks efficiently with a responsive design.',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/todo-manager.png?alt=media&token=125bed57-432a-4789-9e60-3b8a1a232850',
+		tags: ['React Js', 'JavaScript', 'CSS', 'Hooks', 'LocalStorage'],
+		category: 'react app',
+		github:
+			'https://github.com/MilanPavasiya/React-Projects/tree/main/todolistmanager',
+		webapp: 'https://todo-manager-context-api-react-app.netlify.app',
+	},
+	{
+		id: 4,
+		title: 'Currency Convertor',
+		date: 'July 2024 - July 2024',
+		description:
+			'This app allows users to convert between different currencies by fetching live exchange rates from an API. It provides a simple and intuitive interface for users to input amounts and select currencies for conversion.',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/CurrencyConverter.png?alt=media&token=f2d0ed61-3a7b-4469-aaf8-b4a102718685',
+		tags: ['React', 'Currency-Convertor API', 'CSS'],
+		category: 'react app',
+		github:
+			'https://github.com/MilanPavasiya/React-Projects/tree/main/currencyConvertor',
+		webapp: 'https://currencyconverter-reactproject.netlify.app',
+	},
+	{
+		id: 5,
+		title: 'Theme Switcher App',
+		date: 'Jun 2023 - Jul 2023',
+		description:
+			'The Theme Switcher app allows users to toggle between light and dark themes for a better visual experience.',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/theme-switcher.png?alt=media&token=09c74bcf-2775-4d2b-884c-fea96dba33a5',
+		tags: ['React', 'JavaScript', 'CSS', 'Styled-Components'],
+		category: 'react app',
+		github:
+			'https://github.com/MilanPavasiya/React-Projects/tree/main/ThemeSwitcher',
+		webapp: 'https://theme-switcher-context-api-react.netlify.app',
+	},
+	{
+		id: 6,
+		title: 'Apple Clone',
+		date: 'April 2021 - April 2021',
+		description:
+			'Developed a responsive Apple clone website project with a focus on visual design and user experience (UX). The inspiration for this project stemmed from the evolving trends in e-commerce, driving me to create an engaging and aesthetically pleasing online platform.',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/Apple.png?alt=media&token=6273dbe5-147f-492a-bd69-71a6f034e3da',
+		tags: ['JavaScript', 'CSS', 'HTML'],
+		category: 'web app',
+		github: 'https://github.com/MilanPavasiya/Apple-Clone',
+		webapp: 'https://apple-clone-wesite.netlify.app',
+	},
+	{
+		id: 7,
+		title: 'Easybank Landing Page',
+		date: 'April 2021 - April 2021',
+		description:
+			'Executed a website project for Easy Bank with an optimal layout, SASS integration, and responsive design. The challenges encountered provided valuable opportunities to test and enhance my knowledge and skills.',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/Easybank.png?alt=media&token=f71627fc-5738-4555-aca3-501832fe7f05',
+		tags: ['JavaScript', 'SCSS', 'HTML'],
+		category: 'web app',
+		github: 'https://github.com/MilanPavasiya/Easy-Bank-Website',
+		webapp: 'https://easybank-landingpage-website.netlify.app',
+	},
+];
 
 export const TimeLineData = [
 	{ year: 2019, text: 'Started my journey' },

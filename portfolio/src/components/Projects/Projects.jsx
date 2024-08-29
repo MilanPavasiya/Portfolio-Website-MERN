@@ -20,8 +20,8 @@ const Projects = ({ openModal, setOpenModal }) => {
 			<Wrapper>
 				<Title>Projects</Title>
 				<Desc>
-					I have worked on a wide range of projects. From web apps to android
-					apps. Here are some of my projects.
+					I have worked on a wide range of projects. <br /> Here are some of my
+					projects built with passion.
 				</Desc>
 				<ToggleButtonGroup>
 					{toggle === 'all' ? (
@@ -31,6 +31,36 @@ const Projects = ({ openModal, setOpenModal }) => {
 					) : (
 						<ToggleButton value='all' onClick={() => setToggle('all')}>
 							All
+						</ToggleButton>
+					)}
+					<Divider />
+					{toggle === 'mern app' ? (
+						<ToggleButton
+							active
+							value='mern app'
+							onClick={() => setToggle('mern app')}>
+							MERN APPS
+						</ToggleButton>
+					) : (
+						<ToggleButton
+							value='MERN app'
+							onClick={() => setToggle('mern app')}>
+							MERN APPS
+						</ToggleButton>
+					)}
+					<Divider />
+					{toggle === 'react app' ? (
+						<ToggleButton
+							active
+							value='react app'
+							onClick={() => setToggle('react app')}>
+							REACT APPS
+						</ToggleButton>
+					) : (
+						<ToggleButton
+							value='react app'
+							onClick={() => setToggle('react app')}>
+							REACT APPS
 						</ToggleButton>
 					)}
 					<Divider />
@@ -44,36 +74,6 @@ const Projects = ({ openModal, setOpenModal }) => {
 					) : (
 						<ToggleButton value='web app' onClick={() => setToggle('web app')}>
 							WEB APPS
-						</ToggleButton>
-					)}
-					<Divider />
-					{toggle === 'android app' ? (
-						<ToggleButton
-							active
-							value='android app'
-							onClick={() => setToggle('android app')}>
-							ANDROID APPS
-						</ToggleButton>
-					) : (
-						<ToggleButton
-							value='android app'
-							onClick={() => setToggle('android app')}>
-							ANDROID APPS
-						</ToggleButton>
-					)}
-					<Divider />
-					{toggle === 'machine learning' ? (
-						<ToggleButton
-							active
-							value='machine learning'
-							onClick={() => setToggle('machine learning')}>
-							MACHINE LEARNING
-						</ToggleButton>
-					) : (
-						<ToggleButton
-							value='machine learning'
-							onClick={() => setToggle('machine learning')}>
-							MACHINE LEARNING
 						</ToggleButton>
 					)}
 				</ToggleButtonGroup>
