@@ -36,7 +36,7 @@ const Navbar = () => {
 							cursor: 'pointer',
 							textDecoration: 'none',
 						}}>
-						<SkillImage src='../../../public/Logo.svg' /> <Span>Portfolio</Span>
+						<SkillImage src='../../../Logo.svg' /> <Span>Portfolio</Span>
 					</a>
 				</NavLogo>
 				<MobileIcon>
