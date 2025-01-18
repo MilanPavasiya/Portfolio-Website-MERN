@@ -10,7 +10,7 @@ export const Bio = {
 		'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
 	github: 'https://github.com/MilanPavasiya',
 	resume:
-		'https://drive.google.com/file/d/1QuTiOa5PTxP4GMWK87oxXz4mg8C8QRHh/view?usp=sharing',
+		'https://drive.google.com/file/d/1iXCqfo2NIoVcoE4DrAcH8_wR5QouIrEs/view?usp=sharing',
 	linkedin: 'https://www.linkedin.com/in/milan-pavasiya/',
 	leetcode: 'https://leetcode.com/u/MilanPavasiya/',
 };
@@ -240,7 +240,7 @@ export const experiences = [
 	{
 		id: 0,
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/avantisystems_logo.jpeg?alt=media&token=36b125b9-8f4e-484d-abe6-810b547f43a7',
-		role: 'Intermediate Software Developer',
+		role: 'Intermediate Software Developer - 1 Year 10 Months',
 		company: 'Avanti Computer Systems, a RICOH Company',
 		date: 'Jan 2022 - Oct 2023',
 		desc: 'Worked on Avanti Slingshot Print MIS Project, feature development, enhanced accounting module on the Servoy platform, achieving a 95% data accuracy rate and resolving over 90% of complex bugs within 48 hours.',
@@ -264,7 +264,7 @@ export const experiences = [
 	{
 		id: 1,
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/getmehired_co_logo.jpeg?alt=media&token=9c224079-bf11-493b-a59e-71ea995a46d8',
-		role: 'Full Stack Developer Internship',
+		role: 'Full Stack Developer Internship - 6 Months',
 		company: 'GetMeHired.co',
 		date: 'June 2021 - Nov 2021',
 		desc: 'Worked on live bootcamp project with expertise in Angular 12, integrating REST APIs, AWS, and Firebase, while improving UI/UX using Angular Material and Bootstrap.',
@@ -286,9 +286,9 @@ export const experiences = [
 	{
 		id: 2,
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/volcon_logo.png?alt=media&token=cc39983e-5acb-4099-bb34-2d5f4882c08d',
-		role: 'Front End Developer ',
+		role: 'Front End Developer - 1 Year 3 Months',
 		company: 'Volcone Web Solutions, LLC',
-		date: 'Dec 2020 - May 2021',
+		date: 'Mar 2020 - May 2021',
 		desc: 'Worked on React.js with Redux Projects, with a strong focus on building dynamic, responsive SPA applications, ensuring seamless user experiences, and collaborating effectively in agile environments.',
 		skills: [
 			'React JS',
@@ -303,9 +303,9 @@ export const experiences = [
 	{
 		id: 3,
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-377d8.appspot.com/o/volcon_logo.png?alt=media&token=cc39983e-5acb-4099-bb34-2d5f4882c08d',
-		role: 'Web Developer',
+		role: 'Web Developer - 1 Year',
 		company: 'Volcone Web Solutions, LLC',
-		date: 'Mar 2019 - Aug 2019',
+		date: 'Mar 2019 - Feb 2020',
 		desc: 'Developed various web projects for the end clients using Wordpress framework.',
 		skills: [
 			'Worpress',
@@ -452,8 +452,8 @@ export const projects = [
 
 export const TimeLineData = [
 	{ year: 2019, text: 'Started my journey' },
-	{ year: 2019, text: 'Worked as a web developer for 6 months' },
-	{ year: 2021, text: 'Worked as a front end developer for 6 months' },
+	{ year: 2019, text: 'Worked as a web developer for 1 year' },
+	{ year: 2021, text: 'Worked as a front end developer for 1 year 3 months' },
 	{
 		year: 2021,
 		text: 'Got an Internship as a Full Stack Developer for 6 months',
